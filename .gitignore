@@ -1,23 +1,29 @@
-*.annot
-*.cmo
-*.cma
-*.cmi
-*.a
-*.o
-*.cmx
-*.cmxs
-*.cmxa
+# Created by https://www.gitignore.io/api/windows
+# Edit at https://www.gitignore.io/?templates=windows
 
-# ocamlbuild working directory
-_build/
+### Windows ###
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
 
-# ocamlbuild targets
-*.byte
-*.native
+# Dump file
+*.stackdump
 
-# oasis generated files
-setup.data
-setup.log
+# Folder config file
+[Dd]esktop.ini
 
-# Merlin configuring file for Vim and Emacs
-.merlin
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# End of https://www.gitignore.io/api/windows
